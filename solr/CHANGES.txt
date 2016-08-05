@@ -114,6 +114,8 @@ New Features
 * SOLR-9324: Support Secure Impersonation / Proxy User for solr authentication
   (Gregory Chanan)
 
+* SOLR-9252: Feature selection and logistic regression on text (Cao Manh Dat, Joel Bernstein)
+
 Bug Fixes
 ----------------------
 
@@ -186,6 +188,8 @@ Bug Fixes
 * SOLR-8379: UI Cloud->Tree view now shows .txt files correctly (Alexandre Rafalovitch via janhoy)
 
 * SOLR-9308: Fix distributed RTG to forward request params, fixes fq and non-default fl params (hossman)
+
+* SOLR-9179: NPE in IndexSchema using IBM JDK (noble, Colvin Cowie)
 
 Optimizations
 ----------------------
